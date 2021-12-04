@@ -1,0 +1,28 @@
+.flex-container {
+  width: 400px;
+  height: 300px;
+  padding: 16px;
+  background-color: plum;
+  border: 4px solid indigo;
+  display: flex; /* Any element with "display: flex;" becomes a flex-box container */
+  flex-direction: row;
+  
+  /* Space the contents apart to fit the width of the container without flexing/stretching them */
+  justify-content: center; 
+  
+  /* You can choose to vertically-align the contents to the center of the container */
+  align-items: center;
+}
+
+
+.item {
+	width: 80px;
+	height: 80px;
+	border: 4px solid darkslategray;
+	padding: 5px;
+	background-color: skyblue;
+	font-weight: bold;
+	text-align: center;
+} 
+
+

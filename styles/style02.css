@@ -1,0 +1,77 @@
+
+.header {
+	font-family: "Courier New", monospace;
+	background-color: #F5CBA7;
+	
+	/* Make this a horizontal flex-box container */
+	display: flex; 
+	flex-direction: row;
+
+	/* Space the contents evenly apart to fit the width of the container without flexing/stretching them */
+	justify-content: space-between; 
+
+	/* Vertically-center the contents */
+	align-items: center;
+	
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.left-links {
+	
+	/* Make this a horizontal flex-box container */
+	display: flex; 
+	flex-direction: row;
+
+	/* Horizontally left-align the contents */
+	justify-content: flex-start; 
+
+	/* Vertically-center the contents */
+	align-items: center;
+}
+
+.right-links {
+	
+	/* Make this a horizontal flex-box container */
+	display: flex; 
+	flex-direction: row;
+
+	/* Horizontally right-align the contents */
+	justify-content: flex-end; 
+
+	/* Vertically-center the contents */
+	align-items: center;
+}
+
+.logo {
+	font-size: 48px;
+	font-weight: 900;
+	color: #DC7633;
+	background-color: #FDEBD0;
+	padding: 4px 32px;
+}
+
+ul {
+	/* Remove the bullets on the list items */
+	list-style-type: none;
+	
+	/* Change list to also be a flex container */
+	display: flex;
+	gap: 10px;
+	
+	margin: 0;
+	padding: 0;
+}
+
+a.a_header {
+	font-size: 22px;
+	font-weight: bold;
+	color: #DC7633;
+	background-color: white;
+	padding: 8px;
+	
+	/* Remove the underline under the links */
+	text-decoration: none;
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Exercise for the Odin Project on using flex-box -->
+
+<head>
+	<title>Flex-Box Header</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- External style sheet -->
+	<link rel="stylesheet" href="../styles/style03.css">
+	
+	
+</head>
+
+<!-- Exercise rules: 
+For this one you will probably need to edit the HTML a little bit. Often with flexbox you need to add containers around things to make them go where you need them to go. In this case, you probably want to separate the items that go on the left and right of the header.
+
+This is also the first example where you'll be nesting flex containers inside each other.
+
+Rules:
+Everything is centered vertically inside the header.
+There is 8px space between everything and the edge of the header.
+Items are arranged horizontally as seen in the outcome image.
+There is 16px between each item on both sides of the header.
+Flex is used to arrange everything.
+-->
+
+<body>
+
+	<h1>Flex-Box Header</h1>
+	
+	<div class="header">
+	
+		<div class="header-left">
+			<div class="logo">LOGO</div>
+		
+			<div class="links">
+				<ul>
+					<li><a class="a_header" href="#">link-one</a></li>
+					<li><a class="a_header" href="#">link-two</a></li>
+					<li><a class="a_header" href="#">link-three</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="header-right">
+			<button class="notifications">
+			1 new notification
+			</button>
+			
+			<div class="profile-image"></div>
+		</div>
+		
+	</div>
+	
+
+	<br><br>
+	<a href="../index.html">Back to Main</a>
+
+</body>
+
+</html>
