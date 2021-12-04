@@ -1,0 +1,51 @@
+.flex-container {
+  height: 140px;
+  padding: 16px;
+  background-color: plum;
+  border: 4px solid indigo;
+  display: flex; /* Any element with "display: flex;" becomes a flex-box container */
+  flex-direction: row;
+  
+  /* Space the contents apart to fit the width of the container without flexing/stretching them */
+  justify-content: space-between; 
+  
+  /* You can choose to vertically-align the contents to the center of the container */
+  align-items: center;
+}
+
+
+.item {
+	width: 60px;
+	height: 60px;
+	border: 4px solid darkslategray;
+	background-color: skyblue;
+	
+} 
+
+.flex-containerB {
+  height: 140px;
+  padding: 16px;
+  background-color: plum;
+  border: 4px solid indigo;
+  display: flex; /* Any element with "display: flex;" becomes a flex-box container */
+  flex-direction: row;
+  
+  /* Group the contents together in the center of the container */
+  justify-content: center; 
+  
+  /* You can choose to vertically-align the contents to the bottom */
+  align-items: flex-end;
+  
+  /* Add a gap between contents */
+  gap: 10px;
+}
+
+
+.itemB {
+	width: 60px;
+	height: 60px;
+	border: 4px solid darkslategray;
+	background-color: skyblue;
+	
+} 
+
