@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Exercise for the Odin Project on using flex-box -->
+
+<head>
+	<title>Flex-Box Layout</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- External style sheet -->
+	<link rel="stylesheet" href="../styles/style06.css">
+	
+	
+</head>
+
+<!-- Exercise rules: 
+Flexbox is useful for laying out entire pages as well as the smaller components we've already been working with. For this exercise, we're leaving you with a little more work to do, with some things you may not have encountered yet. It's perfectly acceptable to google things you're unsure of!
+
+Hints:
+You may want to search something like CSS remove list bullets. We've done this for you in previous examples, but not here. Yay learning.
+We've added height: 100vh to the body... this makes the body exactly the same height as the viewport. To stick the footer to the bottom you will need to use flex and change the direction to column.
+
+Rules:
+The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
+The header and footer have padding.
+The links in the header and footer are pushed to either side.
+There is space between the links in the header and footer.
+The footer has a light gray background (#eeeeee).
+The logo, input and buttons are centered in the screen.
+The buttons have an appropriate amount of padding.
+There is space between the logo, input and buttons.
+-->
+
+<body>
+
+	
+		<div class="flex-header">
+
+			<ul class="left-links">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Store</a></li>
+			</ul>
+		
+			<ul class="right-links">
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="flex-content">
+			<img src="../images/odin_logo.png" alt="">
+			
+			<div class="input">
+				<input type="text">
+			</div>
+			
+			<div class="buttons">
+				<button>Do the thing!</button>
+				<button>Do the other thing!</button>
+			</div>
+		</div>
+	  
+		<div class="flex-footer">
+			<ul class="left-links">
+				<li><a href="#">Advertising</a></li>
+				<li><a href="#">Business</a></li>
+			</ul>
+			
+			<ul class="right-links">
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+			</ul>
+			
+
+		</div>
+	
+</body>
+
+</html>
